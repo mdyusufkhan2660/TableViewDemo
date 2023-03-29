@@ -16,6 +16,10 @@
 		2D1C033029D4984F00D7A431 /* CustomCellDesignTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1C032F29D4984F00D7A431 /* CustomCellDesignTests.swift */; };
 		2D1C033A29D4984F00D7A431 /* CustomCellDesignUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1C033929D4984F00D7A431 /* CustomCellDesignUITests.swift */; };
 		2D1C033C29D4984F00D7A431 /* CustomCellDesignUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1C033B29D4984F00D7A431 /* CustomCellDesignUITestsLaunchTests.swift */; };
+		2D1C034A29D4A37800D7A431 /* ImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1C034829D4A37800D7A431 /* ImageTableViewCell.swift */; };
+		2D1C034B29D4A37800D7A431 /* ImageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D1C034929D4A37800D7A431 /* ImageTableViewCell.xib */; };
+		2D1C034E29D4A3A200D7A431 /* SegmentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1C034C29D4A3A200D7A431 /* SegmentTableViewCell.swift */; };
+		2D1C034F29D4A3A200D7A431 /* SegmentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D1C034D29D4A3A200D7A431 /* SegmentTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		2D1C033529D4984F00D7A431 /* CustomCellDesignUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomCellDesignUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D1C033929D4984F00D7A431 /* CustomCellDesignUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCellDesignUITests.swift; sourceTree = "<group>"; };
 		2D1C033B29D4984F00D7A431 /* CustomCellDesignUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCellDesignUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2D1C034829D4A37800D7A431 /* ImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTableViewCell.swift; sourceTree = "<group>"; };
+		2D1C034929D4A37800D7A431 /* ImageTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageTableViewCell.xib; sourceTree = "<group>"; };
+		2D1C034C29D4A3A200D7A431 /* SegmentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentTableViewCell.swift; sourceTree = "<group>"; };
+		2D1C034D29D4A3A200D7A431 /* SegmentTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SegmentTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +114,10 @@
 				2D1C032129D4984F00D7A431 /* Assets.xcassets */,
 				2D1C032329D4984F00D7A431 /* LaunchScreen.storyboard */,
 				2D1C032629D4984F00D7A431 /* Info.plist */,
+				2D1C034829D4A37800D7A431 /* ImageTableViewCell.swift */,
+				2D1C034929D4A37800D7A431 /* ImageTableViewCell.xib */,
+				2D1C034C29D4A3A200D7A431 /* SegmentTableViewCell.swift */,
+				2D1C034D29D4A3A200D7A431 /* SegmentTableViewCell.xib */,
 			);
 			path = CustomCellDesign;
 			sourceTree = "<group>";
@@ -232,8 +244,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D1C032529D4984F00D7A431 /* LaunchScreen.storyboard in Resources */,
+				2D1C034B29D4A37800D7A431 /* ImageTableViewCell.xib in Resources */,
 				2D1C032229D4984F00D7A431 /* Assets.xcassets in Resources */,
 				2D1C032029D4984D00D7A431 /* Main.storyboard in Resources */,
+				2D1C034F29D4A3A200D7A431 /* SegmentTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +272,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D1C034E29D4A3A200D7A431 /* SegmentTableViewCell.swift in Sources */,
 				2D1C031D29D4984D00D7A431 /* ViewController.swift in Sources */,
+				2D1C034A29D4A37800D7A431 /* ImageTableViewCell.swift in Sources */,
 				2D1C031929D4984D00D7A431 /* AppDelegate.swift in Sources */,
 				2D1C031B29D4984D00D7A431 /* SceneDelegate.swift in Sources */,
 			);
