@@ -1,7 +1,7 @@
 import UIKit
 class ViewController: UIViewController {
     @IBOutlet weak var myTable: UITableView!
-    var cellIdentifiers: [String] = ["imageCell", "segmentCell"]
+    var cellIdentifiers: [String] = ["imageCell", "segmentCell", "progressCell", "sliderCell", "stepperCell", "switchCell"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -14,6 +14,18 @@ class ViewController: UIViewController {
         
         let segmentCell = UINib(nibName: "SegmentTableViewCell", bundle: nil)
         myTable.register(segmentCell, forCellReuseIdentifier: "segmentCell")
+        
+        let progressCell = UINib(nibName: "ProgressTableViewCell", bundle: nil)
+        myTable.register(progressCell, forCellReuseIdentifier: "progressCell")
+        
+        let sliderCell = UINib(nibName: "SliderTableViewCell", bundle: nil)
+        myTable.register(sliderCell, forCellReuseIdentifier: "sliderCell")
+        
+        let stepperCell = UINib(nibName: "StepperTableViewCell", bundle: nil)
+        myTable.register(stepperCell, forCellReuseIdentifier: "stepperCell")
+        
+        let switchCell = UINib(nibName: "SwitchTableViewCell", bundle: nil)
+        myTable.register(switchCell, forCellReuseIdentifier: "switchCell")
     }
 }
 extension ViewController: UITableViewDelegate, UITableViewDataSource{

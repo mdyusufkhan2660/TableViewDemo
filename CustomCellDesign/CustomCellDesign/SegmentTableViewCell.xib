@@ -20,7 +20,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <subviews>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Hs6-sS-LI9">
-                                <rect key="frame" x="0.0" y="0.0" width="227.33333333333334" height="45"/>
+                                <rect key="frame" x="0.0" y="0.0" width="238.33333333333334" height="45"/>
                                 <segments>
                                     <segment title="First"/>
                                     <segment title="Second"/>
@@ -30,8 +30,8 @@
                                 </connections>
                             </segmentedControl>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="First" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qkK-6b-jEm">
-                                <rect key="frame" x="247.33333333333334" y="0.0" width="72.666666666666657" height="44"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <rect key="frame" x="258.33333333333331" y="0.0" width="61.666666666666686" height="44"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
